@@ -9,7 +9,7 @@ import java.util.List;
 
 public class SeleniumExample {
     private SeleniumConfig config;
-    private String url = "http://www.baeldung.com/";
+    private String url = "http://https://ffwagency.com/contact-us/";
 
     public SeleniumExample() {
         config = new SeleniumConfig();
@@ -24,7 +24,7 @@ public class SeleniumExample {
         return this.config.getDriver().getTitle();
     }
 
-    public void getAboutBaeldungPage() {
+    public void getTestedPage() {
         closeOverlay();
         clickAboutLink();
         clickAboutUsLink();
